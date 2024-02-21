@@ -1,9 +1,8 @@
 package app;
-import utils.Const;
 import java.io.FileOutputStream;
 import java.io.IOException;
 public class FileWriteService {
-    public static String toFile(String text, String fileName) {
+    public String toFile(String text, String fileName) {
         try (FileOutputStream fout =
                      new FileOutputStream(Const.BASE_PATH + fileName + ".txt")) {
             byte[] arr = text.getBytes();

@@ -1,4 +1,4 @@
-package utils;
+package app;
 
 public class Const {
     public final static String BASE_PATH = "/JavaPro" +
